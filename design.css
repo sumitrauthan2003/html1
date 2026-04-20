@@ -1,0 +1,66 @@
+body {
+    background-color: #ffeef2;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+}
+
+#valentine-card {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #ff4d6d;
+    font-size: 2rem;
+}
+
+p {
+    color: #555;
+    font-weight: bold;
+}
+
+img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    min-height: 100px;
+}
+
+#yes-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#no-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
